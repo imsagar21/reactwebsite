@@ -19,9 +19,9 @@ function NavbarSection() {
                   Courses
                 </button>
                 <ul className="dropdown-menu mx-auto">
+                  <li><button className="dropdown-item">DevOps</button></li>
                   <li><button className="dropdown-item">Azure</button></li>
                   <li><button className="dropdown-item">AWS</button></li>
-                  <li><button className="dropdown-item">DevOps</button></li>
                   <li><button className="dropdown-item">Azure DevOps</button></li>
                   <li><button className="dropdown-item">Salesforce</button></li>
                   <li><button className="dropdown-item">Java</button></li>
