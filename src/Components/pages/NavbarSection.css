@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+.text-right{
+  text-align: right !important;
+}
+
+.dropdown-menu{
+    transition: 0.5s;
+  }
+  .digitallync{
+    padding-left: 25px;
+  }
+  .categories{
+    align-items: center;
+  }
+  .categories>li{
+    padding: 0px 50px;
+  }
+  #Getskilled{
+    background-color: orange;
+    /* border-color: black; */
+    border-radius: 25PX;
+    padding: 11px 34px;
+  }
+  .borderless li,button{
+    border: none;
+  }
+  .transparent{
+      background-color: transparent;
+  }
+  .transition{
+    transition: all 0.2s ;
+
+
+  }
+
+
+  @media screen and (min-width:992px) {
+    .dropdown:hover .dropdown-menu{
+        display: block;
+        margin-top: 0;
+    }
+    .dropdown .dropdown-menu{
+        display: none;
+    }
+    .dropdown:hover .dropdown-toggle::after{
+        border-top: 0;
+        border-bottom: .3em solid;
+    }
+    
+  }
+  @media screen and (max-width:991px){
+    .dropdown-toggle.show::after{
+        border-top: 0;
+        border-bottom: .3em solid;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px){
+  .keycol{
+    text-align: center;
+  }
+  }
